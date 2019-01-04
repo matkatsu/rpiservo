@@ -1,0 +1,4 @@
+package: github.com/romiogaku/rpiservo
+import:
+- package: gobot.io/x/gobot
+  version: ^1.12.0
