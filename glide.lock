@@ -1,6 +1,36 @@
 hash: 2a637b3c9c89e69eeabd5a3dffbf640a0cfe12447819e3299ead0da0235fd30d
-updated: 2019-01-04T22:02:20.679992+09:00
+updated: 2019-01-05T20:07:01.79441+09:00
 imports:
+- name: github.com/hashicorp/errwrap
+  version: 8a6fb523712970c966eefc6b39ed2c5e74880354
+- name: github.com/hashicorp/go-multierror
+  version: 886a7fbe3eb1c874d46f623bfa70af45f425b3d1
+- name: github.com/pkg/errors
+  version: c9e70be2405e428f24bbc455d40d6b34543d5771
+- name: github.com/sigurn/crc8
+  version: e55481d6f45c5a8f040343bace9013571dae103e
+- name: github.com/sigurn/utils
+  version: f19e41f79f8f006116f682c1af454591bc278ad4
 - name: gobot.io/x/gobot
   version: ed531980b4efe72c4fd9e768171855de3af2d718
+  subpackages:
+  - drivers/gpio
+  - drivers/i2c
+  - drivers/spi
+  - platforms/raspi
+  - sysfs
+- name: periph.io/x/periph
+  version: 39093126517d32974f210d1fd0d578b15d047499
+  subpackages:
+  - conn
+  - conn/gpio
+  - conn/gpio/gpioreg
+  - conn/i2c
+  - conn/i2c/i2creg
+  - conn/physic
+  - conn/pin
+  - conn/spi
+  - conn/spi/spireg
+  - host/fs
+  - host/sysfs
 testImports: []
