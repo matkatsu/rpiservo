@@ -3,6 +3,7 @@
 ## build
 ```
 $ GOARM=6 GOARCH=arm GOOS=linux go build rpiservo.go
+$ scp rpiservo pi:/home/pi
 ```
 
 ## run(on raspberry pi)
